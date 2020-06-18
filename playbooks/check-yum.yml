@@ -7,7 +7,7 @@
   tasks:
   - name: Check RPMs
     redhat_check_yum_pkgs:
-      pkgs: ['screen','yum','wget','openssh','ncurses']
+      pkgs: ['screen','yum','glibc','openssh','ncurses']
       state: present
     register: response
  
